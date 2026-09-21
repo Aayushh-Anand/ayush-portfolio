@@ -425,7 +425,7 @@ function Projects() {
                 {/* ACTIONS */}
 
                 <div
-                  className="project-actions mt-10 flex flex-wrap items-center justify-center gap-3 border-t border-white/10 pt-7 sm:justify-start"
+                  className="project-actions mt-10 flex items-center justify-center gap-3 border-t border-white/10 pt-7 sm:justify-start"
                 >
 
                   <a
