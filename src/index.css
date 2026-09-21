@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-width: 320px;
+  background: transparent;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  html,
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  [role="button"] {
+    cursor: none !important;
+  }
+}
