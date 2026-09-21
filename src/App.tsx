@@ -26,7 +26,7 @@ function App() {
           className="pointer-events-none fixed inset-0 z-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url('/Background/galaxy-background-final.webp')",
+              "url('/Background/background-final.webp')",
           }}
         />
         {/* Galaxy Dark Overlay */}
