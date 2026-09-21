@@ -349,13 +349,13 @@ function Projects() {
             <article
               key={project.number}
               data-direction={project.direction}
-              className={`project-card group relative w-full sm:w-[88%] overflow-hidden rounded-2xl border border-white/10 bg-white/[0.025]p-7 backdrop-blur-sm transition-all duration-500hover:border-blue-400/30 hover:bg-white/4.5 sm:p-9 lg:p-12
-                ${
-                  project.direction === "right"
-                    ? "ml-auto"
-                    : "mr-auto"
-                }
-              `}
+              className={`project-card group relative mx-auto w-[92%] overflow-hidden rounded-2xl border border-white/10 bg-white/2.5 p-7 backdrop-blur-sm transition-all duration-500 hover:border-blue-400/30 hover:bg-white/4.5 sm:w-[88%] sm:p-9 lg:p-12
+              ${
+                project.direction === "right"
+                  ? "sm:ml-auto sm:mr-0"
+                  : "sm:mr-auto sm:ml-0"
+              }
+            `}
             >
 
               {/* CURSOR MOVING CONTENT */}
@@ -374,7 +374,7 @@ function Projects() {
                   </span>
 
                   <span
-                    className="text-xs uppercase tracking-[0.25em] text-white/25"
+                    className="max-w-[60%] text-right text-[10px] uppercase tracking-[0.2em] text-white/25 sm:max-w-none sm:text-xs sm:tracking-[0.25em]"
                   >
                     {project.category}
                   </span>
@@ -425,7 +425,7 @@ function Projects() {
                 {/* ACTIONS */}
 
                 <div
-                  className="project-actions mt-10 flex flex-wrap items-center gap-3 border-t border-white/10 pt-7"
+                  className="project-actions mt-10 flex flex-wrap items-center justify-center gap-3 border-t border-white/10 pt-7 sm:justify-start"
                 >
 
                   <a
