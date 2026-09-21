@@ -161,8 +161,8 @@ function About() {
           {/* Left */}
           <div className="about-heading">
             <h2
-              className="text-[clamp(3.5rem,7vw,7.5rem)] font-semibold leading-[0.88] tracking-[-0.06em]"
-            >
+                className="text-[clamp(2.5rem,12vw,7.5rem)] font-semibold leading-[0.88] tracking-[-0.06em] sm:text-[clamp(3.5rem,7vw,7.5rem)]"
+              >
               I BUILD
 
               <br />
@@ -190,11 +190,11 @@ function About() {
 
             {/* Who I Am */}
             <div>
-              <p className="mb-5 text-xs uppercase tracking-[0.25em] text-white/80">
+              <p className="max-w-xl wrap-break-words text-base leading-[1.8] text-white/60 md:text-xl">
                 Who I Am
               </p>
 
-              <p className="max-w-xl text-lg leading-[1.8] text-white/60 md:text-xl">
+              <p className="max-w-xl wrap-break-words text-base leading-[1.8] text-white/60 md:text-lg">
                 I'm Ayush Anand — an AI & ML engineering student focused on
                 full-stack development, artificial intelligence, and building
                 modern digital products.

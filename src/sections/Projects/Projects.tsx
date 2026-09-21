@@ -349,7 +349,7 @@ function Projects() {
             <article
               key={project.number}
               data-direction={project.direction}
-              className={`project-card group relative w-[88%] overflow-hidden rounded-2xl border border-white/10 bg-white/[0.025]p-7 backdrop-blur-sm transition-all duration-500hover:border-blue-400/30 hover:bg-white/4.5 sm:p-9 lg:p-12
+              className={`project-card group relative w-full sm:w-[88%] overflow-hidden rounded-2xl border border-white/10 bg-white/[0.025]p-7 backdrop-blur-sm transition-all duration-500hover:border-blue-400/30 hover:bg-white/4.5 sm:p-9 lg:p-12
                 ${
                   project.direction === "right"
                     ? "ml-auto"
@@ -388,7 +388,7 @@ function Projects() {
 
                   <div>
                     <h3
-                      className="text-[clamp(2.5rem,5vw,5.5rem)] font-medium leading-[0.9] tracking-[-0.06em] text-white"
+                      className="text-[clamp(2rem,10vw,5.5rem)] font-medium leading-[0.9] tracking-[-0.06em] text-white sm:text-[clamp(2.5rem,5vw,5.5rem)]"
                     >
                       {project.title}
                     </h3>
