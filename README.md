@@ -1,75 +1,93 @@
-# React + TypeScript + Vite
+# AYUSH ANAND — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, responsive personal portfolio website for **AYUSH ANAND**, showcasing my journey, skills, projects, achievements, and experience as an **AI Engineer × Full Stack Developer**.
 
-Currently, two official plugins are available:
+The portfolio features a dark, futuristic visual direction with glassmorphism, electric blue and violet gradients, smooth scrolling, and subtle motion interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Website
 
-## React Compiler
+[Visit Portfolio](https://ayush-portfolio-gules-kappa.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Responsive design for desktop, tablet, and mobile
+- Modern dark futuristic UI
+- Glassmorphism interface
+- Blue and violet gradient visual system
+- Custom cursor on desktop
+- Smooth scrolling with Lenis
+- GSAP-powered animations
+- Scroll-triggered animations
+- Interactive project cards
+- Skills and technology showcase
+- Achievement and certification showcase
+- Resume access
+- Social media integration
+- Direct email contact
+- Responsive mobile navigation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Frontend
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Animation & Interaction
 
-```
+- GSAP
+- GSAP ScrollTrigger
+- Lenis
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+### Icons
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Lucide React
+- React Icons
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Tools
 
-```
+- Git
+- GitHub
+- VS Code
+- Vercel
+
+## 📂 Project Structure
+
+```text
+ayush-portfolio/
+│
+├── public/
+│   ├── Background/
+│   ├── Certificates/
+│   ├── Resume/
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── robots.txt
+│
+├── src/
+│   ├── components/
+│   │   ├── Loader/
+│   │   ├── CustomCursor.tsx
+│   │   ├── ResumeButton.tsx
+│   │   ├── ScrollReveal.tsx
+│   │   ├── SmoothScroll.tsx
+│   │   └── SocialBar.tsx
+│   │
+│   ├── data/
+│   │
+│   ├── sections/
+│   │   ├── About/
+│   │   ├── Achievements/
+│   │   ├── Contact/
+│   │   ├── Experience/
+│   │   ├── Footer/
+│   │   ├── Home/
+│   │   ├── Navbar/
+│   │   ├── Projects/
+│   │   └── Skills/
+│   │
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
