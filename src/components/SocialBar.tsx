@@ -13,7 +13,7 @@ function SocialBar() {
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/aayushh-anand/",
+      href: "https://www.linkedin.com/in/ayushh-anand/",
       icon: FaLinkedinIn,
     },
     {
