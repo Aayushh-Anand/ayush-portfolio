@@ -6,7 +6,7 @@ The portfolio features a dark, futuristic visual direction with glassmorphism, e
 
 ## 🌐 Live Website
 
-[Visit Portfolio](https://ayushh-portfolio.vercel.app/))
+[Visit Portfolio](https://ayushh-portfolio.vercel.app/)
 
 ## ✨ Features
 
